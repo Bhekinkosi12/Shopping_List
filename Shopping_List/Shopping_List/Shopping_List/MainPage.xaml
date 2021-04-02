@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:Shopping_List"
              x:Class="Shopping_List.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+	<StackLayout >
+		<Frame Padding="0" >
+			
+			<label Text="Hello world" />
+		
+		
+		</Frame>
+	</StackLayout>
 </ContentPage>
